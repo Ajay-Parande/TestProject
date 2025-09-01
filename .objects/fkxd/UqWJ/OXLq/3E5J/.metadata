@@ -1,0 +1,14 @@
+﻿{
+  "Name": "You must be at least 18…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "3E5J2E4nsUmQHgtTnHSQEQ",
+  "Reference": "Zws9jgprf0mKxsXML29JXA/3E5J2E4nsUmQHgtTnHSQEQ",
+  "ParentRef": "Zws9jgprf0mKxsXML29JXA/OXLqBI6zYEGgSH5htGnjkw",
+  "Created": "2025-08-14T07:05:53.4508611Z",
+  "Updated": "2025-08-14T07:05:53.4508611Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

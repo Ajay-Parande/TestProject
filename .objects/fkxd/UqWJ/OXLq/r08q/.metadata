@@ -1,0 +1,14 @@
+﻿{
+  "Name": "You've been approved fo…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "r08q_WuZTEO6kfCby7CyqA",
+  "Reference": "Zws9jgprf0mKxsXML29JXA/r08q_WuZTEO6kfCby7CyqA",
+  "ParentRef": "Zws9jgprf0mKxsXML29JXA/OXLqBI6zYEGgSH5htGnjkw",
+  "Created": "2025-08-14T06:59:23.0040207Z",
+  "Updated": "2025-08-14T06:59:23.0040207Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

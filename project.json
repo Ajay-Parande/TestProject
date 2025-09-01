@@ -1,0 +1,212 @@
+{
+  "name": "ApplyLoan",
+  "projectId": "5f01c9e4-381e-4912-aaca-dfee95716f26",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DataService.Activities": "[25.2.0]",
+    "UiPath.IntegrationService.Activities": "[1.16.0]",
+    "UiPath.System.Activities": "25.6.1",
+    "UiPath.UIAutomation.Activities": "[25.10.12]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.167.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession",
+    "robotVersion": "25.0.167"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "in_Age",
+        "displayName": "in_Age",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": true,
+        "hasDefault": true,
+        "defaultValue": "40"
+      },
+      {
+        "name": "in_Current_Yearly_Income",
+        "displayName": "in_Current_Yearly_Income",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": true,
+        "hasDefault": true,
+        "defaultValue": "100000"
+      },
+      {
+        "name": "in_Loan_Term",
+        "displayName": "in_Loan_Term",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": true,
+        "hasDefault": true,
+        "defaultValue": "5"
+      },
+      {
+        "name": "in_Loan_Amount",
+        "displayName": "in_Loan_Amount",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": true,
+        "hasDefault": true,
+        "defaultValue": "2000000"
+      },
+      {
+        "name": "in_Email",
+        "displayName": "in_Email",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": true,
+        "hasDefault": true,
+        "defaultValue": "brucewayne@wayneenterprise.com"
+      },
+      {
+        "name": "in_CustomerID",
+        "displayName": "in_CustomerID",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": true,
+        "hasDefault": true,
+        "defaultValue": "101"
+      },
+      {
+        "name": "in_EntityID",
+        "displayName": "in_EntityID",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": true,
+        "hasDefault": true,
+        "defaultValue": "123"
+      }
+    ],
+    "output": [
+      {
+        "name": "out_Comments",
+        "displayName": "out_Comments",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      },
+      {
+        "name": "out_LoanID",
+        "displayName": "out_LoanID",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      },
+      {
+        "name": "out_InterestRate",
+        "displayName": "out_InterestRate",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "71482335-adf8-484a-bdb5-9da16e2a3196",
+      "input": [
+        {
+          "name": "in_Age",
+          "displayName": "in_Age",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": true,
+          "hasDefault": true,
+          "defaultValue": "40"
+        },
+        {
+          "name": "in_Current_Yearly_Income",
+          "displayName": "in_Current_Yearly_Income",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": true,
+          "hasDefault": true,
+          "defaultValue": "100000"
+        },
+        {
+          "name": "in_Loan_Term",
+          "displayName": "in_Loan_Term",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": true,
+          "hasDefault": true,
+          "defaultValue": "5"
+        },
+        {
+          "name": "in_Loan_Amount",
+          "displayName": "in_Loan_Amount",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": true,
+          "hasDefault": true,
+          "defaultValue": "2000000"
+        },
+        {
+          "name": "in_Email",
+          "displayName": "in_Email",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": true,
+          "hasDefault": true,
+          "defaultValue": "brucewayne@wayneenterprise.com"
+        },
+        {
+          "name": "in_CustomerID",
+          "displayName": "in_CustomerID",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": true,
+          "hasDefault": true,
+          "defaultValue": "101"
+        },
+        {
+          "name": "in_EntityID",
+          "displayName": "in_EntityID",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": true,
+          "hasDefault": true,
+          "defaultValue": "123"
+        }
+      ],
+      "output": [
+        {
+          "name": "out_Comments",
+          "displayName": "out_Comments",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        },
+        {
+          "name": "out_LoanID",
+          "displayName": "out_LoanID",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        },
+        {
+          "name": "out_InterestRate",
+          "displayName": "out_InterestRate",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ]
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

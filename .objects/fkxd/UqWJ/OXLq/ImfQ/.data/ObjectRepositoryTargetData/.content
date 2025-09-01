@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Xiv4yb82ukKQ7v59esQJ1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/loans/result/68adad1ce5a7ab0048f4fb83/9/true" CVScreenId="3c001fc2-db2d-422b-ad92-58bcd9f97cbd" CvTextArea="773, 368, 370, 81" CvTextArgument="Congrats!" CvType="Text" DesignTimeRectangle="389, 357, 1141, 86" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="e1c501b5-3e52-44a4-9746-d290eb0266b6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank-Loan result' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="68068e309a32bec485e1fa26550fe59a.png" xmlns="">0giZ20JXRx0-BF3HygmWtvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

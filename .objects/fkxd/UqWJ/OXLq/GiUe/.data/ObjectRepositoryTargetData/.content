@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="16t9-5xznk-Gn4IQ_3dZPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/loans/result/689d87993b61ca2fa05ab703/7/true" CVScreenId="7a947869-34de-49f7-bbc6-2d22a44262e1" CvType="AnyWordGroup" DesignTimeRectangle="389, 749, 1141, 43" ElementType="Text" FullSelectorArgument="&lt;webctrl id='loanID' tag='H4' /&gt;" Guid="f6839a80-c3c3-4af8-8bb0-6d6a6ec91a83" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank-Loan result' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7a947869-34de-49f7-bbc6-2d22a44262e1" CvTextArea="812, 704, 292, 28" CvTextArgument="Your new loan ID is:" CvType="Text" DesignTimeRectangle="389, 701, 1141, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H5' class='text-white' aaname=' Your new loan ID is: ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Your new loan ID is:' /&gt;" Guid="127cec80-dad3-48a8-8884-6679e4149b6d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="54a10d39374afbcef28ad34123024848.png" xmlns="">0m0CL0Mv-v0aL4jr5UUIOxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
